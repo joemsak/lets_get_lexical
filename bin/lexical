@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+
+require 'pp'
+require 'lets_get_lexical'
+
+file = File.open(ARGV[0])
+@document = Lexical.new(file)
+
+pp "Word count: #{@document.word_count}"
+pp "Unique word count: #{@document.unique_word_count}"
+pp "Lexical density: #{@document.lexical_density}"
