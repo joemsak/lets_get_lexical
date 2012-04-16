@@ -5,9 +5,13 @@ Calculate the word count, unique word count, and lexical density of a given docu
 
 Usage:
 ------
-git clone git://github.com/joemsak/lets_get_lexical.git
+[Download this code](https://github.com/joemsak/lets_get_lexical/zipball/1.0)
 
-cd lets_get_lexical
+extract the zip
+
+open the folder path in terminal/bash
+
+run this command:
 
 ruby lexical path/to/document.doc
 
