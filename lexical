@@ -1,7 +1,7 @@
 #!/usr/bin/ruby
 
 require 'pp'
-require 'lets_get_lexical'
+require_relative 'lets_get_lexical'
 
 file = File.open(ARGV[0])
 @document = Lexical.new(file)
