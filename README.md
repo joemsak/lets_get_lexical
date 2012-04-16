@@ -13,7 +13,7 @@ open the folder path in terminal/bash
 
 run this command:
 
-ruby lexical path/to/document.text
+ruby lexical path/to/document.txt
 
 (does not work with word docs (yet))
 
