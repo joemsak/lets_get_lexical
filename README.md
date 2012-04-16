@@ -7,7 +7,7 @@ Calculate the word count, unique word count, and lexical density of a given docu
 = Usage:
 git clone git@
 cd lets_get_lexical
-lexical path/to/document.doc
+ruby lexical path/to/document.doc
 
 = Output:
 Word count: xx
